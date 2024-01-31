@@ -1,0 +1,38 @@
+footer{
+    padding: 3rem 0;
+}
+footer a{
+    color: gray;
+    text-decoration: underline;
+    transition: all 0.2s ;
+}
+footer a:hover{
+    color: rgb(203, 203, 203);
+    text-decoration: underline;
+}
+footer .grid-container .grid_childs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+footer .grid-container{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width:1024px) {
+    footer .grid-container{
+        gap: 0 50px;
+    }
+}
+
+@media screen and (max-width:475px) {
+    footer .grid-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
+

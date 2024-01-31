@@ -1,0 +1,27 @@
+.contact{
+    padding: 4rem 0;
+    color: white;
+}
+
+.contact .contact-container{
+        text-align: center;
+}
+
+.contact .contacttext{
+
+font-size: 1rem;
+}
+
+
+@media screen and (max-width:768px) {
+    .contact .contacttext{
+
+        font-size: 0.8rem;
+        }
+}
+@media screen and (max-width:475px) {
+    .contact .contacttext{
+
+        font-size: 0.7rem;
+        }
+}

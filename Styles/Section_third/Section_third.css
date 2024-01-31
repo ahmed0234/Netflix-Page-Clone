@@ -1,0 +1,102 @@
+.third{
+    color: white;
+    padding: 4rem 0;
+}
+.third .container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 10rem;
+}
+
+.third .container h1{
+    width: 10ch;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.third .container h2{
+    font-size: 1.8rem;
+    width: 30ch;
+    font-weight: 400;
+}
+
+
+
+
+@media screen and (min-width:1536px) {
+   
+}
+
+@media screen and (max-width:1535px) {
+   
+}
+
+
+@media screen and (max-width:1280px) {
+    .third .container{
+
+        gap: 30px;
+        padding: 0 0rem;
+    }
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+    .third .container{
+
+        text-align: center;
+    }
+    .third .container h1{
+            font-size: 3rem;
+            width: 100%;
+    }
+
+    .third .container h2{
+        width: 100%;
+        font-size: 1.5rem;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+   
+}
+
+
+
+
+@media screen and (max-width:640px) {
+   
+    .third .container h1{
+            font-size: 2.6rem;
+           
+    }
+
+    .third .container h2{
+     
+        font-size: 1.1rem;
+}
+}
+
+
+
+
+@media screen and (max-width:475px) {
+    .third .container h1{
+        font-size: 2rem;
+       
+}
+
+.third .container h2{
+ 
+    font-size: 1rem;
+}
+}
+

@@ -1,0 +1,262 @@
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+      url(/netflixbg.jpg);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding-top: 35px;
+    /* border: 1px solid red; */
+  }
+  
+  header nav img {
+    width: 180px;
+    cursor: pointer;
+  }
+  
+  header .hero {
+    height: 70vh;
+    /* border: 1px solid red; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  header .hero .hero-title-text {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  .hero_description {
+    font-weight: 400;
+    font-size: 1.8rem;
+  }
+  
+  .hero_footer_text {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  
+  .seperation {
+    height: 10px;
+    background-color: rgb(39, 39, 39);
+  }
+  
+  .hero_btn {
+    font-size: 1.3rem;
+    padding: 0.7rem 1.8rem;
+  }
+  
+  .em {
+    font-style: normal;
+  }
+  
+  .hero_input {
+    border: 1px solid rgb(140, 140, 140);
+    background-color: rgba(32, 32, 32, 0.5);
+    padding: 0.9rem 10rem 0.9rem 1rem;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+  }
+  .hero_input::placeholder {
+    color: white;
+    opacity: 0.7;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .hero_email_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+  }
+
+
+
+
+  
+@media screen and (max-width:1535px) {
+ 
+}
+
+
+@media screen and (max-width:1280px) {
+ 
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+  header .hero .hero-title-text {
+    font-size: 2.2rem;
+    font-weight: 800;
+  }
+  
+  .hero_description {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  
+  .hero_footer_text {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  header nav img {
+    width: 150px;
+    cursor: pointer;
+  }
+  .hero_btn {
+    font-size: 1.1rem;
+    padding: 0.6rem 1.8rem;
+  }
+  .hero_input {
+    border: 1px solid rgb(140, 140, 140);
+    background-color: rgba(32, 32, 32, 0.5);
+    padding: 0.7rem 8rem 0.7rem 1rem;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+  }
+  .hero_input::placeholder {
+    color: white;
+    opacity: 0.7;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .nav_btn{
+    padding: 0.3rem 1.4rem;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+  header .hero .hero-title-text {
+    font-size: 1.9rem;
+    font-weight: 800;
+  }
+  
+  .hero_description {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+  
+  .hero_footer_text {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  header nav img {
+    width: 110px;
+    cursor: pointer;
+  }
+  .hero_btn {
+    font-size: 1rem;
+    padding: 0.4rem 1.5rem;
+  }
+  .hero_input {
+    border: 1px solid rgb(140, 140, 140);
+    background-color: rgba(32, 32, 32, 0.5);
+    padding: 0.5rem 8rem 0.5rem 1rem;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+  }
+  .hero_input::placeholder {
+    color: white;
+    opacity: 0.7;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .nav_btn{
+    padding: 0.3rem 1.4rem;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+@media screen and (max-width:640px) {
+  header .hero .hero-title-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  
+  .hero_description {
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+  
+  .hero_footer_text {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  header nav img {
+    width: 90px;
+    cursor: pointer;
+  }
+  .hero_btn {
+    font-size: 1rem;
+    padding: 0.4rem 1.5rem;
+  }
+  .hero_input {
+    border: 1px solid rgb(140, 140, 140);
+    background-color: rgba(32, 32, 32, 0.5);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+    width: 90%;
+  }
+  .hero_input::placeholder {
+    color: white;
+    opacity: 0.7;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .nav_btn{
+    padding: 0.3rem 1rem;
+    font-size: 0.9rem;
+  }
+  .hero_email_section {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  header nav {
+    
+    padding-top: 10px;
+    /* border: 1px solid red; */
+  }
+
+}
+
+
+
+
+@media screen and (max-width:475px) {
+  header nav {
+    
+    padding-top: 0px;
+    /* border: 1px solid red; */
+  }
+
+}
+  
+  
