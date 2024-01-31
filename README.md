@@ -21,7 +21,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/netflix-clone.git
+git clone https://github.com/ahmed0234/Netflix-Page-Clone.git
 Navigate to the Project Directory:
 
 bash
