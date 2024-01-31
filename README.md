@@ -21,7 +21,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/ahmed0234/Netflix-Page-Clone
+git clone https://github.com/your-username/netflix-clone.git
 Navigate to the Project Directory:
 
 bash
@@ -45,7 +45,7 @@ Netflix: Inspiration for this project is drawn from the Netflix streaming platfo
 Disclaimer
 This project is purely for educational and skill enhancement purposes. It is not intended for commercial use or distribution. All images, logos, and content related to Netflix are the property of Netflix, Inc.
 
-Feel free to explore, contribute, and use this project to further your learning journey. Happy coding!
+Feel free to explore, contribute, and use this project to further your learning journey. Happy coding!!
 
 
 
