@@ -38,7 +38,7 @@ bash
 Copy code
 npm run dev
 Access the Application:
-Open your browser and visit http://localhost:3000 to view the Netflix Clone.
+Open your browser and visit https://ahmedhassannetflixpageclone.vercel.app to view the Netflix Clone.
 
 Acknowledgments
 Netflix: Inspiration for this project is drawn from the Netflix streaming platform. All copyrights and trademarks are owned by Netflix, Inc.
